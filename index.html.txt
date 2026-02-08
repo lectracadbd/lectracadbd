@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- SEO -->
+<title>LECTRA CAD BD | Lectra CAD Pattern Making Service</title>
+<meta name="description" content="Professional Lectra CAD Pattern Making, Grading & Marker Service in Bangladesh">
+<meta name="keywords" content="Lectra CAD, Pattern Making, Garments CAD, Lectra BD">
+<meta name="author" content="LECTRA CAD BD">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f4f6f8}
+header{background:#0b5ed7;color:#fff;text-align:center;padding:25px}
+header img{width:80px}
+section{max-width:900px;margin:auto;padding:20px}
+.card{background:#fff;padding:20px;margin-bottom:20px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.1)}
+h2{color:#0b5ed7}
+.btn{background:#0b5ed7;color:#fff;padding:10px 15px;border-radius:5px;border:none;cursor:pointer}
+.lang{background:#198754;margin:5px}
+footer{background:#222;color:#fff;text-align:center;padding:15px}
+input,textarea{width:100%;padding:10px;margin:8px 0}
+
+/* WhatsApp Floating */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+padding:12px 15px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+}
+</style>
+
+<script>
+function setLang(l){
+document.getElementById("bn").style.display=l==="bn"?"block":"none";
+document.getElementById("en").style.display=l==="en"?"block":"none";
+}
+</script>
+</head>
+
+<body onload="setLang('bn')">
+
+<header>
+<img src="logo.png">
+<h1>LECTRA CAD BD</h1>
+<p>Professional Lectra CAD Service</p>
+<button class="btn lang" onclick="setLang('bn')">বাংলা</button>
+<button class="btn lang" onclick="setLang('en')">English</button>
+</header>
+
+<section>
+
+<div id="bn">
+<div class="card">
+<h2>আমাদের সম্পর্কে</h2>
+<p>আমি একজন পেশাদার <b>Lectra CAD Pattern Maker</b>। Garments Industry-এর জন্য Pattern, Grading এবং Marker Making সার্ভিস প্রদান করি।</p>
+</div>
+
+<div class="card">
+<h2>সার্ভিস</h2>
+<ul>
+<li>Lectra CAD Pattern Making</li>
+<li>Pattern Grading</li>
+<li>Marker Making</li>
+<li>Garments Technical Support</li>
+</ul>
+</div>
+</div>
+
+<div id="en">
+<div class="card">
+<h2>About Us</h2>
+<p>I am a professional <b>Lectra CAD Pattern Maker</b> providing pattern making, grading and marker services.</p>
+</div>
+
+<div class="card">
+<h2>Services</h2>
+<ul>
+<li>Lectra CAD Pattern Making</li>
+<li>Pattern Grading</li>
+<li>Marker Making</li>
+<li>Garments Technical Support</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<h2>Contact</h2>
+<p>📞 WhatsApp: <b>01758780795</b></p>
+<p>📧 Email: <b>lectracad.bd@gmail.com</b></p>
+<p>📘 Facebook: <a href="https://facebook.com/yourpage" target="_blank">Visit Page</a></p>
+
+<h3>Contact Form</h3>
+<form action="https://formspree.io/f/FORM_ID_HERE" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message"></textarea>
+<button class="btn" type="submit">Send Message</button>
+</form>
+</div>
+
+</section>
+
+<footer>
+© 2026 LECTRA CAD BD | All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa.me/8801758780795" target="_blank">💬</a>
+
+</body>
+</html>
